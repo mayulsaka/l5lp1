@@ -18,7 +18,7 @@
 ==============================================================================================================================================================================================*/
 
 html {
-	font-size: calc(10 * 100vw / 390); /* 390はSPデザインカンプの幅 */
+	font-size: calc(10 * 100vw / 375); /* 375はSPデザインカンプの幅 */
 }
 
 @media (min-width:768px) {
@@ -242,7 +242,7 @@ a:hover {
 	text-decoration: none;
 	color: #fff;
 	border-bottom: solid 1px #fff;
-	font-size: 20px;
+	font-size: 2rem;
 }
 @media (min-width: 768px) {
 	.header__nav-link {
@@ -401,29 +401,29 @@ a:hover {
 }
 
 .fv__badge-result {
-	font-size: 11px;
+	font-size: 1.1rem;
 }
 @media (min-width: 768px) {
 	.fv__badge-result {
-		font-size: 20px;
+		font-size: 2rem;
 	}
 }
 
 .number {
-	font-size: 25px;
+	font-size: 2.5rem;
 }
 @media (min-width: 768px) {
 	.number {
-		font-size: 54px;
+		font-size: 5.4rem;
 	}
 }
 
 .one {
-	font-size: 36px;
+	font-size: 3.6rem;
 }
 @media (min-width: 768px) {
 	.one {
-		font-size: 74px;
+		font-size: 7.4rem;
 	}
 }
 
@@ -488,24 +488,24 @@ a:hover {
 .fv__title-sub {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 @media (min-width: 768px) {
 	.fv__title-sub {
 		margin-bottom: 15px;
-		font-size: 33px;
+		font-size: 3.3rem;
 	}
 }
 
 .fv__title-main {
 	color: #005bac;
-	font-size: 25px;
+	font-size: 2.5rem;
 	font-weight: 900;
 	line-height: 1.3;
 }
 @media (min-width: 768px) {
 	.fv__title-main {
-		font-size: 60px;
+		font-size: 6rem;
 		line-height: 1.4;
 	}
 }
@@ -560,7 +560,7 @@ a:hover {
 	color: #fff;
 	border-radius: 33px;
 	border-radius: 24px;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 700;
 }
 @media (min-width: 768px) {
@@ -603,20 +603,20 @@ a:hover {
 .reason__lead {
 	margin: 10px 0;
 	text-align: center;
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 
 .three {
 	margin-top: 5px;
-	font-size: 40px;
+	font-size: 4rem;
 }
 @media (min-width: 768px) {
 	.reason__lead {
 		margin: 40px 0 20px 0;
-		font-size: 36px;
+		font-size: 3.6rem;
 	}
 	.three {
-		font-size: 54px;
+		font-size: 5.4rem;
 	}
 }
 
@@ -675,35 +675,35 @@ a:hover {
 .reson__point {
 	display: inline-block;
 	text-align: left;
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 .point {
 	margin: 0 0 15px;
 	text-align: left;
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 @media (min-width: 768px) {
 	.point {
-		font-size: 28px;
+		font-size: 2.8rem;
 	}
 }
 
 .point-number {
 	margin: 0 0 15px;
 	text-align: left;
-	font-size: 32px;
+	font-size: 3.2rem;
 }
 .reason__title {
 	margin: 0 0 15px;
 	text-align: left;
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 1.2;
 }
 
 @media (min-width: 768px) {
 	.reason__title {
-		font-size: 24px;
+		font-size: 2.4rem;
 		line-height: 1.3;
 	}
 }
@@ -711,7 +711,7 @@ a:hover {
 .reason__description {
 	margin: 0;
 	text-align: left;
-	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 1.7;
 }
 
@@ -742,12 +742,12 @@ a:hover {
 .cta__text {
 	width: 305px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 @media (min-width: 768px) {
 	.cta__text {
 		width: 1160px;
-		font-size: 16px;
+		font-size: 1.6rem;
 	}
 }
 
@@ -762,7 +762,7 @@ a:hover {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
 }
 @media (min-width: 768px) {
@@ -806,12 +806,12 @@ a:hover {
 .course__lead {
 	margin: 15px 0;
 	text-align: center;
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 @media (min-width: 768px) {
 	.course__lead {
 		margin: 30px 0;
-		font-size: 36px;
+		font-size: 3.6rem;
 	}
 }
 
@@ -824,7 +824,7 @@ a:hover {
 @media (min-width: 768px) {
 	.tab-wrap {
 		width: 100%;
-		font-size: 24px;
+		font-size: 2.4rem;
 	}
 }
 
@@ -840,7 +840,7 @@ a:hover {
 	color: rgba(51, 51, 51, 0.5);
 	border-radius: 12px;
 	background: #f0f0f0;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 700;;
 }
 
@@ -915,12 +915,12 @@ a:hover {
 .course__description {
 	margin: 0;
 	text-align: left;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
 }
 @media (min-width: 768px) {
 	.course__description {
-		font-size: 16px;
+		font-size: 1.6rem;
 		line-height: 1.7;
 	}
 }
@@ -950,12 +950,12 @@ a:hover {
 .cost__lead {
 	margin: 15px 0 20px 0;
 	text-align: center;
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 @media (min-width: 768px) {
 	.cost__lead {
 		margin: 40px 0 30px 0;
-		font-size: 36px;
+		font-size: 3.6rem;
 	}
 }
 
@@ -973,13 +973,13 @@ a:hover {
 	border: solid 3px #ccc;
 	border-collapse: collapse;
 	background-color: #fff;
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 @media (min-width: 768px) {
 	.cost__table {
 		width: 600px;
 		height: 545px;
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 }
 
@@ -988,11 +988,11 @@ a:hover {
 }
 
 .price {
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 @media (min-width: 768px) {
 	.price {
-		font-size: 32px;
+		font-size: 3.2rem;
 	}
 }
 
@@ -1054,13 +1054,13 @@ td, th {
 	transform: translate(-50%,-50%);
 	text-align: left;
 	color: #fff;
-	font-size: 22px;
+	font-size: 2.2rem;
 	font-weight: 700;
 }
 @media (min-width: 768px) {
 	.banner__description {
 		text-align: center;
-		font-size: 42px;
+		font-size: 4.2rem;
 	}
 }
 
@@ -1146,5 +1146,5 @@ td, th {
 .footer_text {
 	width: 305px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
