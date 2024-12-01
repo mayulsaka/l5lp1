@@ -3,14 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="Robots" content="index,follow">
   <title>入学説明会のお申し込み開始 | Kira-Kira Juku</title>
   <meta name="description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。">
   <meta property="og:title" content="入学説明会のお申し込み開始 | Kira-Kira Juku">
   <meta property="og:description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://example.com">
-  <meta property="og:image" content="https://example.com/ogp_image.jpg">
+  <meta property="og:image" content="https://example.com/assets/images/ogp_image.jpg">
   <meta property="og:site_name" content="Kira-Kira Juku">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -26,18 +25,18 @@
   <!-- ヘッダー -->
 
   <header class="header" id="header">
-    <div class="header__inner">
+    <div class="header__container">
       <h1 class="header__title header-title">
         <a href="/" class="header__title-link">
           <img class="header__title-img" src="/assets/images/logo.svg" alt="Kira-Kira Juku">
         </a>
       </h1>
       <nav class="header__nav nav" id="js-nav">
-        <ul class="header__nav__items header__nav-items">
-          <li class="header__nav-items-item"><a href="#reason" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-items-img" alt="">選ばれる3つの理由</a></li>
-          <li class="header__nav-items-item"><a href="#course" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-items-img" alt="">コース・目的</a></li>
-          <li class="header__nav-items-item"><a href="#cost" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-items-img" alt="">費用</a></li>
-          <li class="header__nav-items-item"><a href="/entry" class="header__nav-link header__nav-link-entry-btn">入学説明会に申し込む</a></li>
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item"><a href="#reason" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-img" alt="">選ばれる3つの理由</a></li>
+          <li class="header__nav-list-item"><a href="#course" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-img" alt="">コース・目的</a></li>
+          <li class="header__nav-list-item"><a href="#cost" class="header__nav-link"><img src="/assets/images/arrow-right-white.svg" class="header__nav-img" alt="">費用</a></li>
+          <li class="header__nav-list-item"><a href="/entry" class="header__nav-link header__nav-entry-btn">入学説明会に申し込む</a></li>
         </ul>
       </nav>
       <button class="header__hamburger hamburger" id="js-hamburger">
@@ -51,7 +50,7 @@
   <!-- メインビジュアル -->
 
   <section class="main-visual">
-    <div class="main-visual__inner">
+    <div class="main-visual__container">
       <div class="main-visual__badge">
         <p class="main-visual__badge-result">難関大学の合格実績</p>
         <p class="main-visual__badge-rank"><span class="poppins-exbi number">No.</span>
@@ -67,68 +66,75 @@
   <!-- ボタンエリア -->
 
   <section class="button-area">
-    <div class="button-area__inner">
-      <nav class="button-area__nav">
-        <ul class="button-area__nav-list">
-          <li class="button-area__nav-list-item"><a href="/inquiry" class="button-area__nav-link button-area__nav-link-contact-btn">入学のお問い合わせ</a></li>
-          <li class="button-area__nav-list-item"><a href="/freetrial" class="button-area__nav-link button-area__nav-link-trial-btn">無料体験に申し込む</a></li>
-          <li class="button-area__nav-list-item"><a href="/request" class="button-area__nav-link button-area__nav-link-document-btn">資料請求する</a></li>
+    <div class="button-area__container">
+      <div class="button-area__buttons">
+        <ul class="button-area__button-list">
+          <li class="button-area__button-item"><a href="/inquiry" class="button-area__button-link button-area__button-contact-btn">入学のお問い合わせ</a></li>
+          <li class="button-area__button-item"><a href="/freetrial" class="button-area__button-link button-area__button-trial-btn">無料体験に申し込む</a></li>
+          <li class="button-area__button-item"><a href="/request" class="button-area__button-link button-area__button-document-btn">資料請求する</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
   </section>
 
   <!-- 選ばれる理由-->
 
   <section class="reason" id="reason">
-    <div class="reason__inner">
+    <div class="reason__container">
       <h2 class="reason__lead">選ばれる<span class="poppins-exbi three">3</span>つの理由</h2>
-      <ul class="reason__list">
-        <ol class="reason__list-items">
-          <div class="reason__list-item reason__list-item-left">
-            <img class="reason__image" src="/assets/images/pht_reason01.png" alt="">
+      <ol class="reason__list">
+        <li class="reason__list-group">
+          <div class="reason__list-item">
+            <picture>
+              <source srcset="/assets/images/pht_reason01.png" media="(min-width: 768px)">
+              <img class="reason__image" src="/assets/images/pht_reason01_sp.png" alt="">
+            </picture>
           </div>
-          <div class="reason__list-item reason__list-item-right">
+          <div class="reason__list-item">
             <h3 class="reason__point"><span class="poppins-bi point">Point</span><span class="poppins-bi point-number">1</span></h3>
             <h4 class="reason__title">実績のある講師陣だから安心。</h4>
             <p class="reason__description">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
           </div>
-        </ol>
-        <ol class="reason__list-items reason__list-items-even">
-          <div class="reason__list-item reason__list-item-left">
-            <img class=" reason__image" src="/assets/images/pht_reason02.png" alt="">
+        </li>
+        <li class="reason__list-group reason__list-group-reverse">
+          <div class="reason__list-item">
+            <picture>
+              <source srcset="/assets/images/pht_reason02.png" media="(min-width: 768px)">
+              <img class="reason__image" src="/assets/images/pht_reason02_sp.png" alt="">
+            </picture>
           </div>
-          <div class="reason__list-item reason__list-item-right">
+          <div class="reason__list-item">
             <h3 class=" reason__point"><span class="poppins-bi point">Point</span><span class="poppins-bi point-number">2</span></h3>
             <h4 class="reason__title">オンラインにも対応だから、早送り巻き戻し視聴できる。</h4>
             <p class="reason__description">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
           </div>
-        </ol>
-        <ol class="reason__list-items">
-          <div class="reason__list-item reason__list-item-left">
-            <img class="reason__image" src="/assets/images/pht_reason03.png" alt="">
+        </li>
+        <li class="reason__list-group">
+          <div class="reason__list-item">
+            <picture>
+              <source srcset="/assets/images/pht_reason03.png" media="(min-width: 768px)">
+              <img class="reason__image" src="/assets/images/pht_reason03_sp.png" alt="">
+            </picture>
           </div>
-          <div class="reason__list-item reason__list-item-right">
+          <div class="reason__list-item">
             <h3 class="reason__point"><span class="poppins-bi point">Point</span><span class="poppins-bi point-number">3</span></h3>
             <h4 class="reason__title">徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</h4>
             <p class="reason__description">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
           </div>
-        </ol>
-      </ul>
+        </li>
+      </ol>
     </div>
   </section>
 
   <!-- 申込-->
 
   <section class="entry">
-    <div class="entry__inner">
+    <div class="entry__container">
       <p class="entry__text">
         入学ご検討の方は、まずは入学説明会にお越しください
       </p>
-      <div class="entry__nav">
-        <div class="entry__nav-list">
-          <p class="entry__nav-list-item"><a href="/entry" class="entry__nav-link entry__nav-link-join-btn">入学説明会に申し込む</a></p>
-        </div>
+      <div class="entry__button">
+        <p class="entry__button-item"><a href="/entry" class="entry__button-link entry__join-btn">入学説明会に申し込む</a></p>
       </div>
     </div>
   </section>
@@ -136,7 +142,7 @@
   <!-- コース案内-->
 
   <section class="course" id="course">
-    <div class="course__inner">
+    <div class="course__container">
       <h2 class="course__lead">コース・目的</h2>
 
       <div class="tab-wrap">
@@ -148,40 +154,52 @@
               <li class="course__list-items">
                 <a href="#" class="course01">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course01.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course01.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course01_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒生</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒生</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course02">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course02.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course02.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course02_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒3年生</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒3年生</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course03">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course03.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course03.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course03_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒2年生</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒2年生</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course04">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course04.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course04.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course04_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒1年生</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">高卒1年生</p>
                   </div>
                 </a>
               </li>
@@ -196,40 +214,52 @@
               <li class="course__list-items">
                 <a href="#" class="course05">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course05.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course05.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course05_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">難関大学・医学部合格を目指す</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">難関大学・医学部合格を目指す</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course06">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course06.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course06.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course06_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">名門私立大学合格を目指す</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">名門私立大学合格を目指す</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course07">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course07.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course07.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course07_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">国公立大学合格を目指す</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">国公立大学合格を目指す</p>
                   </div>
                 </a>
               </li>
               <li class="course__list-items">
                 <a href="#" class="course08">
                   <div class="course__image-box">
-                    <img class="course__image" src="/assets/images/pht_course08.png" alt="">
+                    <picture>
+                      <source srcset="/assets/images/pht_course08.png" media="(min-width: 768px)">
+                      <img class="course__image" src="/assets/images/pht_course08_sp.png" alt="">
+                    </picture>
                   </div>
-                  <div>
-                    <p class="course__description"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">海外の大学合格を目指す</p>
+                  <div class="course__description">
+                    <p class="course__description-text"><img src="/assets/images/arrow-right.svg" class="arrow-right" alt="">海外の大学合格を目指す</p>
                   </div>
                 </a>
               </li>
@@ -245,14 +275,12 @@
   <!-- 申込-->
 
   <section class="entry">
-    <div class="entry__inner">
+    <div class="entry__container">
       <p class="entry__text">
         入学ご検討の方は、まずは入学説明会にお越しください
       </p>
-      <div class="entry__nav">
-        <div class="entry__nav-list">
-          <p class="entry__nav-list-item"><a href="/entry" class="entry__nav-link entry__nav-link-join-btn">入学説明会に申し込む</a></p>
-        </div>
+      <div class="entry__button">
+        <p class="entry__button-item"><a href="/entry" class="entry__button-link entry__join-btn">入学説明会に申し込む</a></p>
       </div>
     </div>
   </section>
@@ -260,37 +288,37 @@
   <!-- 費用-->
 
   <section class="cost" id="cost">
-    <div class="cost__inner">
+    <div class="cost__container">
       <h2 class="cost__lead">費用</h2>
       <div class="cost__table-container">
         <table class="cost__table">
           <tr class="cost__table-title">
-            <th>年間講数</th>
-            <th>年間授業料（税込み）</th>
+            <th class="cost__table-title-course">年間講数</th>
+            <th class="cost__table-title-price">年間授業料（税込み）</th>
           </tr>
-          <tr class="cost__table-line">
-            <td>5講</td>
-            <td><span class="poppins-b price">24,500</span><span class="yen">円</span></td>
+          <tr class="cost__table-items">
+            <td class="cost__table-course-item">5講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">24,500</span><span class="yen">円</span></td>
+          </tr>
+          <tr class="cost__table-items">
+            <td class="cost__table-course-item">10講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">49,000</span><span class="yen">円</span></td>
+          </tr>
+          <tr class="cost__table-items">
+            <td class="cost__table-course-item">11講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">53,900</span><span class="yen">円</span></td>
+          </tr>
+          <tr class="cost__table-items">
+            <td class="cost__table-course-item">12講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">58,800</span><span class="yen">円</span></td>
+          </tr>
+          <tr class="cost__table-items">
+            <td class="cost__table-course-item">22講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">107,800</span><span class="yen">円</span></td>
           </tr>
           <tr>
-            <td>10講</td>
-            <td><span class="poppins-b price">49,000</span><span class="yen">円</span></td>
-          </tr>
-          <tr>
-            <td>11講</td>
-            <td><span class="poppins-b price">53,900</span><span class="yen">円</span></td>
-          </tr>
-          <tr>
-            <td>12講</td>
-            <td><span class="poppins-b price">58,800</span><span class="yen">円</span></td>
-          </tr>
-          <tr>
-            <td>22講</td>
-            <td><span class="poppins-b price">107,800</span><span class="yen">円</span></td>
-          </tr>
-          <tr>
-            <td>24講</td>
-            <td><span class="poppins-b price">117,600</span><span class="yen">円</span></td>
+            <td class="cost__table-course-item">24講</td>
+            <td class="cost__table-price-item"><span class="poppins-b price">117,600</span><span class="yen">円</span></td>
           </tr>
         </table>
       </div>
@@ -300,14 +328,12 @@
   <!-- 申込 -->
 
   <section class="entry">
-    <div class="entry__inner">
+    <div class="entry__container">
       <p class="entry__text">
         入学ご検討の方は、まずは入学説明会にお越しください
       </p>
-      <div class="entry__nav">
-        <div class="entry__nav-list">
-          <p class="entry__nav-list-item"><a href="/entry" class="entry__nav-link entry__nav-link-join-btn">入学説明会に申し込む</a></p>
-        </div>
+      <div class="entry__button">
+        <p class="entry__button-item"><a href="/entry" class="entry__button-link entry__join-btn">入学説明会に申し込む</a></p>
       </div>
     </div>
   </section>
@@ -315,7 +341,7 @@
   <!-- バナーエリア -->
 
   <section class="banner-area">
-    <div class="banner-area__inner">
+    <div class="banner-area__container">
       <div class="banner-area__items">
         <a href="/faq" class="qa">
           <div class="banner-area__image-box">
@@ -344,8 +370,8 @@
   <!-- フッター -->
 
   <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__txt">&copy;2023 Kira-Kira Juku All Rights Reserved.</p>
+    <div class="footer__container">
+      <p class="footer__text">&copy;2023 Kira-Kira Juku All Rights Reserved.</p>
     </div>
   </footer>
 
