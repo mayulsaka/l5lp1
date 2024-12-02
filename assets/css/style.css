@@ -18,9 +18,9 @@ html {
 
 /* 共通 */
 
-/* * {
+* {
 	outline: 1px solid red;
-} */
+}
 
 html {
 	overflow: auto;
@@ -81,6 +81,10 @@ a:hover {
 
 img {
 	vertical-align: bottom;
+}
+
+li {
+	list-style: none;
 }
 
 /* ヘッダー */
@@ -152,11 +156,13 @@ img {
 /* ヘッダーのナビ部分 */
 .header__nav {
 	position: absolute;
-	top: 0;
+
+/* top: 0; */
+	top: 7rem;
 	right: 0;
 	left: 0;
 	width: 100%;
-	height: 40rem;
+	height: 33.1rem;
 	transition: ease 0.3s;
 	transform: translateX(100%);
 }
@@ -181,7 +187,8 @@ img {
 	width: 37.5rem;
 	height: 33.1rem;
 	padding: 2rem;
-	list-style-type: none;
+
+/* list-style-type: none; */
 	transform: translate(-50%, -50%);
 }
 @media (min-width: 768px) {
@@ -336,14 +343,16 @@ img {
 
 /* margin: 0 auto 7.5rem; */
 	padding: 0;
-	background: url(../images/main-visual_sp.jpg) no-repeat center bottom/cover;
+	background: url(../images/main-visual_sp.jpg) no-repeat center /cover;
 }
 @media (min-width: 768px) {
 	.main-visual {
 		top: 10rem;
 		height: 65.1rem;
 		margin: 0 auto;
-		background: url(../images/main-visual.jpg) no-repeat center bottom/cover;
+		background: url(../images/main-visual.jpg) no-repeat center /cover;
+
+		object-fit: cover;
 	}
 }
 .main-visual__container {
@@ -683,7 +692,6 @@ img {
 }
 @media (min-width: 768px) {
 	.reason__list-item {
-		/* width: calc(120rem - 56rem); */
 		width: calc(100% - 56rem);
 	}
 }
@@ -808,10 +816,6 @@ img {
 	}
 }
 
-.entry__button-item {
-	list-style-type: none;
-}
-
 .entry__button-link {
 	display: flex;
 	align-items: center;
@@ -853,13 +857,17 @@ img {
 .course__container {
 	width: 100%;
 	margin: 0 auto;
-	padding: 5rem 1.5rem 7rem 1.5rem;
+
+/* padding: 5rem 1.5rem 7rem 1.5rem; */
+	padding: 5rem 0 7rem 0;
 }
 @media (min-width: 768px) {
 	.course__container {
 		max-width: 120rem;
 		padding-top: 3.5rem;
+		padding-right: 2rem;
 		padding-bottom: 4.1rem;
+		padding-left: 2rem;
 	}
 }
 
@@ -875,20 +883,23 @@ img {
 	}
 }
 
-.tab-wrap {
+.course__tab-wrap {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
+
+	column-gap: 2rem;
 }
 @media (min-width: 768px) {
-	.tab-wrap {
+	.course__tab-wrap {
+		justify-content: space-between;
 		width: 100%;
 		font-size: 2.4rem;
 	}
 }
 
-.tab-label {
+.course__tab-label {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -896,6 +907,8 @@ img {
 	width: 16.4rem;
 	height: 6.6rem;
 	padding-top: 0.5rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
 	cursor: pointer;
 	text-align: center;
 	color: rgba(51, 51, 51, 0.5);
@@ -905,7 +918,7 @@ img {
 	font-weight: 700;
 }
 @media (min-width: 768px) {
-	.tab-label {
+	.course__tab-label {
 		width: 56.5rem;
 		height: 7.5rem;
 		padding-top: 0;
@@ -913,28 +926,29 @@ img {
 	}
 }
 
-.tab-content {
+.course__tab-content {
 	display: none;
 	width: 100%;
-	padding: 2.5rem 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 2.5rem 1.5rem;
 	background: #f2f9ff;
 }
 @media (min-width: 768px) {
-	.tab-content {
+	.course__tab-content {
 		margin-bottom: 4rem;
-		padding-top: 2rem;
-		padding-bottom: 3rem;
+		padding: 2rem 2rem 3rem 2rem;
 	}
 }
 
-.tab-switch:checked + .tab-label {
+.course__tab-switch:checked + .course__tab-label {
 	color: #333;
 	background: #f2f9ff;
 }
-.tab-switch:checked + .tab-label + .tab-content {
+.course__tab-switch:checked + .course__tab-label + .course__tab-content {
 	display: block;
 }
-.tab-switch {
+.course__tab-switch {
 	display: none;
 }
 
@@ -948,6 +962,7 @@ img {
 	.course__list {
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
 
 		row-gap: 3rem;
 		column-gap: 3rem;
@@ -983,7 +998,7 @@ img {
 
 .course__image {
 	display: block;
-	width: 34.3rem;
+	width: 100%;
 	height: auto;
 	transition: 1s all;
 
@@ -1081,8 +1096,6 @@ img {
 	width: 100%;
 	height: 45rem;
 	padding: 1rem;
-
-/* border-spacing: 0; */
 	border: solid 0.3rem #ccc;
 	border-collapse: collapse;
 	background-color: #fff;
@@ -1193,7 +1206,7 @@ td, th {
 	height: 17rem;
 	transition: 1s all;
 
-	object-fit: contain;
+	object-fit: cover;
 }
 @media (min-width: 768px) {
 	.banner-area__image {
