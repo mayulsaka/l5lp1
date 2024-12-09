@@ -39,16 +39,13 @@ html {
 }
 
 section {
-	margin-bottom: 2rem;
-
+	margin-bottom: 4rem;
 	scroll-margin-top: 7rem;
 }
-
 @media (min-width: 768px) {
 	section {
-		margin-bottom: 4rem;
-
-		scroll-margin-top: 10.1rem;
+		margin-bottom: 2rem;
+		scroll-margin-top: 9rem;
 	}
 }
 
