@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
-<<<<<<< HEAD
 /* 基本設定 */
-=======
-/* ---------- 基本設定 ---------- */
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 
 html {
 	font-size: calc(10 * 100vw / 375);
@@ -92,11 +88,7 @@ li {
 	list-style: none;
 }
 
-<<<<<<< HEAD
 /* ヘッダー */
-=======
-/* ---------- ヘッダー ---------- */
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 
 .header {
 	position: fixed;
@@ -492,11 +484,7 @@ li {
 }
 
 .main-visual__text-title-sub {
-<<<<<<< HEAD
 	margin-top: 0.85rem;
-=======
-	margin-top: 0.9rem;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 	font-size: 1.4rem;
 }
 @media (min-width: 768px) {
@@ -616,20 +604,12 @@ li {
 	}
 }
 
-<<<<<<< HEAD
 /* 選ばれる理由 */
-=======
-/* ---------- 選ばれる理由 ---------- */
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 
 .reason {
 	position: relative;
 	margin: 0 auto;
-<<<<<<< HEAD
 	padding: 1rem 1.6rem 0.9rem 1.6rem;
-=======
-	padding: 1rem 1.6rem 1rem 1.6rem;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 }
 @media (min-width: 768px) {
 	.reason {
@@ -775,11 +755,7 @@ li {
 }
 
 .reason__title {
-<<<<<<< HEAD
 	margin-bottom: 1.6rem;
-=======
-	margin-bottom: 1.5rem;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 	text-align: left;
 	font-size: 2rem;
 	line-height: 1.3;
@@ -805,11 +781,7 @@ li {
 	}
 }
 
-<<<<<<< HEAD
 /* 申込 */
-=======
-/* 申込　*/
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 
 .entry {
 	display: flex;
@@ -840,11 +812,7 @@ li {
 }
 
 .entry__text {
-<<<<<<< HEAD
 	margin-bottom: 1.25rem;
-=======
-	margin-bottom: 1.1rem;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 	padding: 0 2.5rem;
 	text-align: center;
 	font-size: 1.6rem;
@@ -891,20 +859,12 @@ li {
 	color: #fff;
 }
 
-<<<<<<< HEAD
 /* コース案内 */
-=======
-/* ---------- コース案内 ---------- */
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 
 .course {
 	position: relative;
 	margin: 0 auto;
-<<<<<<< HEAD
 	padding: 6.1rem 1rem 9.8rem 1rem;
-=======
-	padding: 6.1rem 1rem 9.4rem 1rem;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 }
 @media (min-width: 768px) {
 	.course {
@@ -1282,11 +1242,6 @@ li {
 @media (min-width: 768px) {
 	.banner-area__image {
 		width: 100%;
-<<<<<<< HEAD
-=======
-		/* height: 32rem; */
-		/* height: auto; */
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 		height: 100%;
 
 		Object-fit: Cover;
@@ -1308,14 +1263,7 @@ li {
 @media (min-width: 768px) {
 	.banner-area__image-box {
 		width: 100%;
-<<<<<<< HEAD
 		height: 32rem;
-=======
-		/* height: 100%; */
-		/* width: 96rem; */
-		/* height: 32rem; */
-		height: auto;
->>>>>>> 726d1e6a8d7526e9710acf34390fbace356a3d7e
 	}
 }
 
