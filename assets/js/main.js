@@ -8,6 +8,6 @@ ham.on('click', function () {
     nav.toggleClass('active');
 });
 $(window).on('resize', function () {
-        ham.removeClass('active');
-        nav.removeClass('active');
+    ham.removeClass('active');
+    nav.removeClass('active');
 });
